@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PresentViewController.h"
 
 @interface ViewController ()
 
@@ -24,6 +25,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)clickJumpVC:(id)sender {
+    [self presentViewController:[[PresentViewController alloc] init] animated:YES completion:nil];
+}
 
+    
 
 @end

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PresentViewController</key>
+	<dict>
+		<key>ActionEvent</key>
+		<dict>
+			<key>clickB:</key>
+			<string>ACTION_EVENT_ID_B</string>
+			<key>clickA:</key>
+			<string>ACTION_EVENT_ID_A</string>
+		</dict>
+		<key>PageDisplay</key>
+		<dict>
+			<key>Enter</key>
+			<string>PAGE_ENTER_ID</string>
+			<key>Leave</key>
+			<string>PAGE_LEAVE_ID</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

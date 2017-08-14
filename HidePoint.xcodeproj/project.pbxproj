@@ -15,6 +15,14 @@
 		5418924D1F417DCC000EA87D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5418924B1F417DCC000EA87D /* LaunchScreen.storyboard */; };
 		541892581F417DCC000EA87D /* HidePointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 541892571F417DCC000EA87D /* HidePointTests.m */; };
 		541892631F417DCC000EA87D /* HidePointUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 541892621F417DCC000EA87D /* HidePointUITests.m */; };
+		541892751F417E4D000EA87D /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 541892741F417E4D000EA87D /* Aspects.m */; };
+		541892791F417E94000EA87D /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541892771F417E94000EA87D /* PresentViewController.m */; };
+		5418927A1F417E94000EA87D /* PresentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 541892781F417E94000EA87D /* PresentViewController.xib */; };
+		5418927D1F417EDA000EA87D /* HookTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5418927C1F417EDA000EA87D /* HookTool.m */; };
+		541892801F417F4E000EA87D /* UIControl+ActiveStatistic.m in Sources */ = {isa = PBXBuildFile; fileRef = 5418927F1F417F4E000EA87D /* UIControl+ActiveStatistic.m */; };
+		541892831F417FD4000EA87D /* UIViewController+VCStatistic.m in Sources */ = {isa = PBXBuildFile; fileRef = 541892821F417FD4000EA87D /* UIViewController+VCStatistic.m */; };
+		541892861F418050000EA87D /* StatisticDataUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 541892851F418050000EA87D /* StatisticDataUpload.m */; };
+		541892881F4184D1000EA87D /* StatisticID_Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 541892871F4184D1000EA87D /* StatisticID_Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,20 @@
 		5418925E1F417DCC000EA87D /* HidePointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HidePointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		541892621F417DCC000EA87D /* HidePointUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HidePointUITests.m; sourceTree = "<group>"; };
 		541892641F417DCC000EA87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541892731F417E4D000EA87D /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		541892741F417E4D000EA87D /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		541892761F417E94000EA87D /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		541892771F417E94000EA87D /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		541892781F417E94000EA87D /* PresentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentViewController.xib; sourceTree = "<group>"; };
+		5418927B1F417EDA000EA87D /* HookTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HookTool.h; sourceTree = "<group>"; };
+		5418927C1F417EDA000EA87D /* HookTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HookTool.m; sourceTree = "<group>"; };
+		5418927E1F417F4E000EA87D /* UIControl+ActiveStatistic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ActiveStatistic.h"; sourceTree = "<group>"; };
+		5418927F1F417F4E000EA87D /* UIControl+ActiveStatistic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ActiveStatistic.m"; sourceTree = "<group>"; };
+		541892811F417FD4000EA87D /* UIViewController+VCStatistic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+VCStatistic.h"; sourceTree = "<group>"; };
+		541892821F417FD4000EA87D /* UIViewController+VCStatistic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+VCStatistic.m"; sourceTree = "<group>"; };
+		541892841F418050000EA87D /* StatisticDataUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticDataUpload.h; sourceTree = "<group>"; };
+		541892851F418050000EA87D /* StatisticDataUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticDataUpload.m; sourceTree = "<group>"; };
+		541892871F4184D1000EA87D /* StatisticID_Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StatisticID_Config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +123,15 @@
 		5418923C1F417DCC000EA87D /* HidePoint */ = {
 			isa = PBXGroup;
 			children = (
+				541892701F417E32000EA87D /* lib */,
+				541892711F417E32000EA87D /* StatisticTool */,
 				541892401F417DCC000EA87D /* AppDelegate.h */,
 				541892411F417DCC000EA87D /* AppDelegate.m */,
 				541892431F417DCC000EA87D /* ViewController.h */,
 				541892441F417DCC000EA87D /* ViewController.m */,
+				541892761F417E94000EA87D /* PresentViewController.h */,
+				541892771F417E94000EA87D /* PresentViewController.m */,
+				541892781F417E94000EA87D /* PresentViewController.xib */,
 				541892461F417DCC000EA87D /* Main.storyboard */,
 				541892491F417DCC000EA87D /* Assets.xcassets */,
 				5418924B1F417DCC000EA87D /* LaunchScreen.storyboard */,
@@ -138,6 +165,39 @@
 				541892641F417DCC000EA87D /* Info.plist */,
 			);
 			path = HidePointUITests;
+			sourceTree = "<group>";
+		};
+		541892701F417E32000EA87D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				541892721F417E4D000EA87D /* Aspects */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		541892711F417E32000EA87D /* StatisticTool */ = {
+			isa = PBXGroup;
+			children = (
+				5418927B1F417EDA000EA87D /* HookTool.h */,
+				5418927C1F417EDA000EA87D /* HookTool.m */,
+				5418927E1F417F4E000EA87D /* UIControl+ActiveStatistic.h */,
+				5418927F1F417F4E000EA87D /* UIControl+ActiveStatistic.m */,
+				541892811F417FD4000EA87D /* UIViewController+VCStatistic.h */,
+				541892821F417FD4000EA87D /* UIViewController+VCStatistic.m */,
+				541892841F418050000EA87D /* StatisticDataUpload.h */,
+				541892851F418050000EA87D /* StatisticDataUpload.m */,
+				541892871F4184D1000EA87D /* StatisticID_Config.plist */,
+			);
+			path = StatisticTool;
+			sourceTree = "<group>";
+		};
+		541892721F417E4D000EA87D /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				541892731F417E4D000EA87D /* Aspects.h */,
+				541892741F417E4D000EA87D /* Aspects.m */,
+			);
+			path = Aspects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +308,9 @@
 			files = (
 				5418924D1F417DCC000EA87D /* LaunchScreen.storyboard in Resources */,
 				5418924A1F417DCC000EA87D /* Assets.xcassets in Resources */,
+				5418927A1F417E94000EA87D /* PresentViewController.xib in Resources */,
 				541892481F417DCC000EA87D /* Main.storyboard in Resources */,
+				541892881F4184D1000EA87D /* StatisticID_Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +335,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541892791F417E94000EA87D /* PresentViewController.m in Sources */,
 				541892451F417DCC000EA87D /* ViewController.m in Sources */,
+				541892831F417FD4000EA87D /* UIViewController+VCStatistic.m in Sources */,
+				541892801F417F4E000EA87D /* UIControl+ActiveStatistic.m in Sources */,
 				541892421F417DCC000EA87D /* AppDelegate.m in Sources */,
 				5418923F1F417DCC000EA87D /* main.m in Sources */,
+				5418927D1F417EDA000EA87D /* HookTool.m in Sources */,
+				541892861F418050000EA87D /* StatisticDataUpload.m in Sources */,
+				541892751F417E4D000EA87D /* Aspects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
