@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5418923F1F417DCC000EA87D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5418923E1F417DCC000EA87D /* main.m */; };
+		541892421F417DCC000EA87D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 541892411F417DCC000EA87D /* AppDelegate.m */; };
+		541892451F417DCC000EA87D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541892441F417DCC000EA87D /* ViewController.m */; };
+		541892481F417DCC000EA87D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541892461F417DCC000EA87D /* Main.storyboard */; };
+		5418924A1F417DCC000EA87D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541892491F417DCC000EA87D /* Assets.xcassets */; };
+		5418924D1F417DCC000EA87D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5418924B1F417DCC000EA87D /* LaunchScreen.storyboard */; };
+		541892581F417DCC000EA87D /* HidePointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 541892571F417DCC000EA87D /* HidePointTests.m */; };
+		541892631F417DCC000EA87D /* HidePointUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 541892621F417DCC000EA87D /* HidePointUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		541892541F417DCC000EA87D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 541892321F417DCC000EA87D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541892391F417DCC000EA87D;
+			remoteInfo = HidePoint;
+		};
+		5418925F1F417DCC000EA87D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 541892321F417DCC000EA87D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541892391F417DCC000EA87D;
+			remoteInfo = HidePoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5418923A1F417DCC000EA87D /* HidePoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HidePoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5418923E1F417DCC000EA87D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		541892401F417DCC000EA87D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		541892411F417DCC000EA87D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		541892431F417DCC000EA87D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		541892441F417DCC000EA87D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		541892471F417DCC000EA87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		541892491F417DCC000EA87D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5418924C1F417DCC000EA87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5418924E1F417DCC000EA87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541892531F417DCC000EA87D /* HidePointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HidePointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		541892571F417DCC000EA87D /* HidePointTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HidePointTests.m; sourceTree = "<group>"; };
+		541892591F417DCC000EA87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5418925E1F417DCC000EA87D /* HidePointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HidePointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		541892621F417DCC000EA87D /* HidePointUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HidePointUITests.m; sourceTree = "<group>"; };
+		541892641F417DCC000EA87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		541892371F417DCC000EA87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541892501F417DCC000EA87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5418925B1F417DCC000EA87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		541892311F417DCC000EA87D = {
+			isa = PBXGroup;
+			children = (
+				5418923C1F417DCC000EA87D /* HidePoint */,
+				541892561F417DCC000EA87D /* HidePointTests */,
+				541892611F417DCC000EA87D /* HidePointUITests */,
+				5418923B1F417DCC000EA87D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5418923B1F417DCC000EA87D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5418923A1F417DCC000EA87D /* HidePoint.app */,
+				541892531F417DCC000EA87D /* HidePointTests.xctest */,
+				5418925E1F417DCC000EA87D /* HidePointUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5418923C1F417DCC000EA87D /* HidePoint */ = {
+			isa = PBXGroup;
+			children = (
+				541892401F417DCC000EA87D /* AppDelegate.h */,
+				541892411F417DCC000EA87D /* AppDelegate.m */,
+				541892431F417DCC000EA87D /* ViewController.h */,
+				541892441F417DCC000EA87D /* ViewController.m */,
+				541892461F417DCC000EA87D /* Main.storyboard */,
+				541892491F417DCC000EA87D /* Assets.xcassets */,
+				5418924B1F417DCC000EA87D /* LaunchScreen.storyboard */,
+				5418924E1F417DCC000EA87D /* Info.plist */,
+				5418923D1F417DCC000EA87D /* Supporting Files */,
+			);
+			path = HidePoint;
+			sourceTree = "<group>";
+		};
+		5418923D1F417DCC000EA87D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5418923E1F417DCC000EA87D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		541892561F417DCC000EA87D /* HidePointTests */ = {
+			isa = PBXGroup;
+			children = (
+				541892571F417DCC000EA87D /* HidePointTests.m */,
+				541892591F417DCC000EA87D /* Info.plist */,
+			);
+			path = HidePointTests;
+			sourceTree = "<group>";
+		};
+		541892611F417DCC000EA87D /* HidePointUITests */ = {
+			isa = PBXGroup;
+			children = (
+				541892621F417DCC000EA87D /* HidePointUITests.m */,
+				541892641F417DCC000EA87D /* Info.plist */,
+			);
+			path = HidePointUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		541892391F417DCC000EA87D /* HidePoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541892671F417DCC000EA87D /* Build configuration list for PBXNativeTarget "HidePoint" */;
+			buildPhases = (
+				541892361F417DCC000EA87D /* Sources */,
+				541892371F417DCC000EA87D /* Frameworks */,
+				541892381F417DCC000EA87D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HidePoint;
+			productName = HidePoint;
+			productReference = 5418923A1F417DCC000EA87D /* HidePoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		541892521F417DCC000EA87D /* HidePointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5418926A1F417DCC000EA87D /* Build configuration list for PBXNativeTarget "HidePointTests" */;
+			buildPhases = (
+				5418924F1F417DCC000EA87D /* Sources */,
+				541892501F417DCC000EA87D /* Frameworks */,
+				541892511F417DCC000EA87D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				541892551F417DCC000EA87D /* PBXTargetDependency */,
+			);
+			name = HidePointTests;
+			productName = HidePointTests;
+			productReference = 541892531F417DCC000EA87D /* HidePointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5418925D1F417DCC000EA87D /* HidePointUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5418926D1F417DCC000EA87D /* Build configuration list for PBXNativeTarget "HidePointUITests" */;
+			buildPhases = (
+				5418925A1F417DCC000EA87D /* Sources */,
+				5418925B1F417DCC000EA87D /* Frameworks */,
+				5418925C1F417DCC000EA87D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				541892601F417DCC000EA87D /* PBXTargetDependency */,
+			);
+			name = HidePointUITests;
+			productName = HidePointUITests;
+			productReference = 5418925E1F417DCC000EA87D /* HidePointUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		541892321F417DCC000EA87D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lzf;
+				TargetAttributes = {
+					541892391F417DCC000EA87D = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					541892521F417DCC000EA87D = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 541892391F417DCC000EA87D;
+					};
+					5418925D1F417DCC000EA87D = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 541892391F417DCC000EA87D;
+					};
+				};
+			};
+			buildConfigurationList = 541892351F417DCC000EA87D /* Build configuration list for PBXProject "HidePoint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 541892311F417DCC000EA87D;
+			productRefGroup = 5418923B1F417DCC000EA87D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				541892391F417DCC000EA87D /* HidePoint */,
+				541892521F417DCC000EA87D /* HidePointTests */,
+				5418925D1F417DCC000EA87D /* HidePointUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		541892381F417DCC000EA87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5418924D1F417DCC000EA87D /* LaunchScreen.storyboard in Resources */,
+				5418924A1F417DCC000EA87D /* Assets.xcassets in Resources */,
+				541892481F417DCC000EA87D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541892511F417DCC000EA87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5418925C1F417DCC000EA87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		541892361F417DCC000EA87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541892451F417DCC000EA87D /* ViewController.m in Sources */,
+				541892421F417DCC000EA87D /* AppDelegate.m in Sources */,
+				5418923F1F417DCC000EA87D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5418924F1F417DCC000EA87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541892581F417DCC000EA87D /* HidePointTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5418925A1F417DCC000EA87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541892631F417DCC000EA87D /* HidePointUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		541892551F417DCC000EA87D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 541892391F417DCC000EA87D /* HidePoint */;
+			targetProxy = 541892541F417DCC000EA87D /* PBXContainerItemProxy */;
+		};
+		541892601F417DCC000EA87D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 541892391F417DCC000EA87D /* HidePoint */;
+			targetProxy = 5418925F1F417DCC000EA87D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		541892461F417DCC000EA87D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				541892471F417DCC000EA87D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5418924B1F417DCC000EA87D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5418924C1F417DCC000EA87D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		541892651F417DCC000EA87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		541892661F417DCC000EA87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		541892681F417DCC000EA87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HidePoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lzf.HidePoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		541892691F417DCC000EA87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HidePoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lzf.HidePoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5418926B1F417DCC000EA87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HidePointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lzf.HidePointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HidePoint.app/HidePoint";
+			};
+			name = Debug;
+		};
+		5418926C1F417DCC000EA87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HidePointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lzf.HidePointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HidePoint.app/HidePoint";
+			};
+			name = Release;
+		};
+		5418926E1F417DCC000EA87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HidePointUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lzf.HidePointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HidePoint;
+			};
+			name = Debug;
+		};
+		5418926F1F417DCC000EA87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HidePointUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lzf.HidePointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HidePoint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		541892351F417DCC000EA87D /* Build configuration list for PBXProject "HidePoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541892651F417DCC000EA87D /* Debug */,
+				541892661F417DCC000EA87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		541892671F417DCC000EA87D /* Build configuration list for PBXNativeTarget "HidePoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541892681F417DCC000EA87D /* Debug */,
+				541892691F417DCC000EA87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5418926A1F417DCC000EA87D /* Build configuration list for PBXNativeTarget "HidePointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5418926B1F417DCC000EA87D /* Debug */,
+				5418926C1F417DCC000EA87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5418926D1F417DCC000EA87D /* Build configuration list for PBXNativeTarget "HidePointUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5418926E1F417DCC000EA87D /* Debug */,
+				5418926F1F417DCC000EA87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 541892321F417DCC000EA87D /* Project object */;
+}
